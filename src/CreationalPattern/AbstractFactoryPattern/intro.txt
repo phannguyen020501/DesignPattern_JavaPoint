@@ -1,0 +1,2 @@
+abstract factory pattern: define an interface or abstract class for creating families of related
+(or dependent) objects but without specifying their concrete sub-classes

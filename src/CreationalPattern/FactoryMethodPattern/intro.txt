@@ -1,2 +1,6 @@
 factory pattern: define an interface or abstract class for creating an object but let the subclasses
 decide which class to instance
+- factory method pattern: địng nghĩa interface giúp client tạo object nhưng ủy quyền cho các
+concreate factory để xác định class nào trả về cho client. Được sử dụng để:
+    + đưa toàn bộ logic của việc tạo mới object vào trong factory, che giấu logic của khởi tạo
+    + giảm sự phụ thuộc nhằm tăng tính mở rộng

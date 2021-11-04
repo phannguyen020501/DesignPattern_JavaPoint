@@ -1,2 +1,4 @@
 abstract factory pattern: define an interface or abstract class for creating families of related
 (or dependent) objects but without specifying their concrete sub-classes
+-> abstract factory pattern: tạo ra 1 super factory để tạo các factory khác. Còn gọi là Factory của Factory
+là 1 pattern cấp cao hơn so với factory method pattern

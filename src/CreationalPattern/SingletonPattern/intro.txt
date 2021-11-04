@@ -1,0 +1,5 @@
+- Singleton pattern: define a class that has only one instance and provides a global point of
+access it
+- There two form of singleton design pattern:
++ early instantiation: creation of instance at load time
++ lazy instantiation: creation of instance when required

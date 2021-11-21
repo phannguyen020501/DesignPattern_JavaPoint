@@ -1,0 +1,2 @@
+Builder pattern: construct a complex object from simple objects using step-by-step approach
+-> it is mostly used when object can't be created in single step like the de-serialization of complex obj

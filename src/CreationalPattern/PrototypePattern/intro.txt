@@ -1,0 +1,4 @@
+- prototype pattern: sao chép một đối tượng thay vì tạo một đối tượng mới và có thể tùy
+chỉnh theo yêu cầu
+- prototype pattern should be followed if the cost of creating a new object is
+expensive and resource intensive

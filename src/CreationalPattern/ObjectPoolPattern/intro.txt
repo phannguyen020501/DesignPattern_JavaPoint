@@ -1,0 +1,4 @@
+-object pool pattern: to reuse the object that are expensive to create
+-Basically, an object pool is container with contains a specifed amount of object
+when an object is taken from the pool, it is not available in the pool until put it back
+objects in the pool have a lifecycle: creation, validation and destroy

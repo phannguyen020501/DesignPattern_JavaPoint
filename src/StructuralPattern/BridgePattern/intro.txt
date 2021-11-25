@@ -1,0 +1,6 @@
+bridge pattern : "decouple the functional abstraction from the implementation so that
+                  the two can vary independently"
+                  ->  tách abstract function khỏi implementation để cả 2 làm việc độc lập
+as known: handle or body
+được sử dụng được sử dụng để tách thành phần trừu tượng (abstraction)
+và thành phần thực thi (implementation) riêng biệt.

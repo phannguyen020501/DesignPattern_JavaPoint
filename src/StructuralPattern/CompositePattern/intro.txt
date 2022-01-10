@@ -1,0 +1,11 @@
+composite pattern: "allow clients to operate in generic manager an objects that may or
+                    may not represent a hierarchy of objects"
+composite pattern: là một sự tổng hợp những thành phần có quan hệ với nhau để tạo thành phần lớn hơn.
+                    nó cho phép thực hiện các tương tác với tất cả đối tượng trong mẫu tương tự nhau
+
+                        composite
+                    composite  leaf
+                  leaf  leaf
+-> composite sắp xếp các object theo cấu trúc cây để diễn giải 1 phần cũng như toàn bộ hệ thống phân cấp
+pattern này tạo một lớp chứa nhóm đối tượng riêng của nó. lớp này cung cấp các cách để sửa đổi nhóm của
+cùng 1 object.

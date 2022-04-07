@@ -2,7 +2,8 @@ package CreationalPattern.SingletonPattern.Demo;
 //early instantiation
 public class A {
     private static A obj = new A();//early instance will be created at load time
-    private A(){};
+    private A(){
+    };
     public static A getA(){
         return obj;
     }

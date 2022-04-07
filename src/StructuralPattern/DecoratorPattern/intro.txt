@@ -1,0 +1,5 @@
+a decorator pattern: "attach a flexible additional responsibilities to an object dynamically"
+-> decorator pattern: sử dụng phần thay thế thay vì kế thừa để mở rộng chức năng của một đối tượng trong
+thời gian chạy
+
+decorator còn gọi là :wrapper

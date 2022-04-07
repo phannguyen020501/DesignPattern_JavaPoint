@@ -1,2 +1,19 @@
 Builder pattern: construct a complex object from simple objects using step-by-step approach
 -> it is mostly used when object can't be created in single step like the de-serialization of complex obj
+
+Builder pattern: constructor trong java dùng để khởi tạo và lấy tham số cần thiết để tạo đối tượng
+nhưng nhiều tham số, nhiều constructor -> khó đọc
+builder pattern: là mẫu thiết kế đối tượng tạo ra để xây dựng một đối tượng phức tạp bằng cách sử
+dụng các đối tượng đơn giản và tiếp cận từng bước. việc xây dựng độc lập vs đối tượng khác
+
+- các class chính:
++ product: đối tượng cần khởi tạo, phức tạp và có nhiều thuộc tính
++ builder: abstract hoặc interface khai báo phương thức khởi tạo đối tượng
++ ConcreteBuilder: kế thừa builder và cài đặt chi tiết cách tạo ra đối tượng, xác định và nắm rõ
+các thể hiện mà nó tạo ra, đồng thời cung cấp phương thức để trả các thể hiện mà tạo ra trước đó
++ director/ client: gọi tới builder để tạo ra đối tượng
+
+- sử dụng builder để khởi tạo đối tượng immutable
++ constructor: private: class không khởi tạo trực tiếp từ bên ngoài
++ tất cả thuộc tính dề private final: chỉ gán giá trị trong constructor và chỉ cung cấp = getter();
++ khởi tạo đối tượng thông qua builder

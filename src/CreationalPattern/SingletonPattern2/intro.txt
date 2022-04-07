@@ -1,0 +1,10 @@
+- Singleton: creational
+- Được sử dụng:
++ đảm bảo chỉ một thể hiện(instance) duy nhất của 1 class
++ có thể quản lý số lượng thể hiện 1 lớp trong giới hạn ta muốn
+- Nguyên tắc tạo thành 1 singleton:
++ hàm tạo hay còn gọi là constructor có thể truy cập với private tức chỉ truy xuất trong nội bộ class
++ thể hiện của nó được đặt dạng: private static final variable để đảm bảo chỉ được khởi tạo trong class
++ có một method "public static" để trả về thể hiện truy cập bên trên
+- Các cách tạo singleton:
++ 4 th: eager initialization, lazy initialization, thread safe, double check locking

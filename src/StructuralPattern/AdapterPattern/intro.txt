@@ -2,3 +2,17 @@ an adapter pattern say that: "converts the interface of a class into another int
 -> to provide the interface according to client requirement while using the services of a class with
 a different interface
 -> as known as Wrapper
+
+- adapter pattern: giữ vai trò trung gian của 2 lớp, chuyển đổi interface của 1 hay nhiều lớp có sẵn
+thành 1 interface khác, cho phép các lớp có interface khác nhau có thể dễ dàng giao tiếp qua interface
+trung gian
+- adapter pattern: còn gọi là wrapper pattern
+- ví dụ: phích cắm 3 chân chuyển về 2 chân -> cần 1 adapter
+- adapter bao gồm:
++ adaptee: định nghĩa interface k tương thích, cần dc tích hợp vào
++ adapter: lớp tích hợp, giúp interface không tương thích  tích hợp vs interface đang làm việc
++ target: một inteface chứa các chức năng dc sử dụng bởi client
++ client: lớp sử dụng các dối tượng có interface target
+- 2 cách thực hiện adapter pattern:
++ object adapter:
++ class adapter:

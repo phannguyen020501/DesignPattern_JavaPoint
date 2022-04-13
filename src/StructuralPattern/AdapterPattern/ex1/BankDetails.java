@@ -1,4 +1,4 @@
-package StructuralPattern.AdapterPattern;
+package StructuralPattern.AdapterPattern.ex1;
 //this is the adapter class
 public class BankDetails {
     private String bankName;

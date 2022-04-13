@@ -1,4 +1,4 @@
-package StructuralPattern.AdapterPattern;
+package StructuralPattern.AdapterPattern.ex1;
 
 public interface CreditCard {
     public void giveBankDetails();

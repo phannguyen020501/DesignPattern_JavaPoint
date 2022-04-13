@@ -1,0 +1,8 @@
+- toàn bộ hành vi mẫu (behavoir pattern) xoay quanh nguyên tắc: thành phần đối tượng (composition)
+hơn là thừa kế(inheritance): thay vì mở rộng từ lớp hiện có, thiết kế lớp của bạn để tham chiếu
+một lớp hiện có mà muốn sử dụng.
+- chain of responsibility: cho phép đối tượng gửi 1 yêu cầu nhưng k biết đối tượng nào sẽ nhận và xử lý,
+điều này thực hiện = kết nối các đối tượng nhận yêu cầu thành 1 chuỗi ( chain) và gửi yêu cầu cho
+đến khi 1 đối tượng xử lý nó
+- chain of responsibility: hoạt động như 1 danh sách liên kết (linked list) vs việc đệ quy duyệt qua các
+phần tử

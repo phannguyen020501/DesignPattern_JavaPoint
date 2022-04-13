@@ -1,0 +1,12 @@
+- flyweight pattern: cho phép tái sử dụng đối tượng đã tồn tại bằng cách lưu trữ chúng
+hoặc tạo đối tượng mới khi không tìm thấy đối tượng phù hợp
+- flyweight: sử dụng khi chúng ta cần 1 số lượng lớn đối tượng của 1 lớp nào đó. do đối tượng
+đều phải đòi hỏi chiếm giữ 1 không gian bộ nhớ, nên vs một số lớn đối tượng gây ra vấn đề vs các
+dung lượng thấp.
+- trạng thái của flyweight:
++ intrinsic( trạng thái nội bộ): chứa dữ liệu không thể thay đổi (unchangeable) và không phụ thuộc
+(independent) và ngữ cảnh (context) của đối tượng flyweight, những đối tượng đó có thể lưu trữ vĩnh viễn
+bên trong đối tượng flyweight. tính năng này cho phép tái tạo thuộc tính đối tượng flyweight,
++ extrinsic state( trạng thái bên ngoài): trạng thái thể hiện tính chất phụ thuộc ngữ cảnh của đối tượng
+flyweight, trạng thái này chứa các thuộc tính và dữ liệu dc áp dụng hoặc dc tính toán trong thời gian
+thực thi(runtime)

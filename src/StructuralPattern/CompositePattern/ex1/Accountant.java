@@ -1,4 +1,4 @@
-package StructuralPattern.CompositePattern;
+package StructuralPattern.CompositePattern.ex1;
 
 public class Accountant implements Employee {
     private int id;

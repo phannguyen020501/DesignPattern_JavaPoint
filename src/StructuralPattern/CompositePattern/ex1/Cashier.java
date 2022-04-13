@@ -1,4 +1,4 @@
-package StructuralPattern.CompositePattern;
+package StructuralPattern.CompositePattern.ex1;
 
 public class Cashier implements Employee{
     /* in this class, there are many methods which are not applicable to cashier because

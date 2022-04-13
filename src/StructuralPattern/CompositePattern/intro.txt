@@ -9,3 +9,8 @@ composite pattern: là một sự tổng hợp những thành phần có quan h�
 -> composite sắp xếp các object theo cấu trúc cây để diễn giải 1 phần cũng như toàn bộ hệ thống phân cấp
 pattern này tạo một lớp chứa nhóm đối tượng riêng của nó. lớp này cung cấp các cách để sửa đổi nhóm của
 cùng 1 object.
+
+- composite pattern: là một sự tổng hợp những thành phần có quan hệ vs nhau để tạo ra phần lớn hơn.
+nó cho phép thực hiện những tương tác vs tất cả đối tượng mẫu tương tự vs nhau
+- composite pattern: dc sử dụng khi cần xử lý 1 nhóm đối tượng tương tự theo cách xử lý 1 object.
+composite: sắp xếp theo cấu trúc cây

@@ -1,9 +1,9 @@
-package StructuralPattern.BridgePattern;
+package StructuralPattern.BridgePattern.ex1;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class JavaQuestions implements Question{
+public class JavaQuestions implements Question {
 
     private List<String> questions = new ArrayList<>();
     private int current = 0;

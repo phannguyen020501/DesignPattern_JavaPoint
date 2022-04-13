@@ -1,6 +1,6 @@
-package StructuralPattern.BridgePattern;
+package StructuralPattern.BridgePattern.ex1;
 
-public class QuestionFormat extends QuestionManager{
+public class QuestionFormat extends QuestionManager {
 
     public QuestionFormat(String catalog) {
         super(catalog);

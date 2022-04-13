@@ -1,4 +1,4 @@
-package StructuralPattern.BridgePattern;
+package StructuralPattern.BridgePattern.ex1;
 
 public class BridgePatternDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package StructuralPattern.BridgePattern;
+package StructuralPattern.BridgePattern.ex1;
 
 public interface Question {
     public void nextQuestion();

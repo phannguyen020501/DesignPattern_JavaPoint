@@ -4,3 +4,16 @@ bridge pattern : "decouple the functional abstraction from the implementation so
 as known: handle or body
 được sử dụng được sử dụng để tách thành phần trừu tượng (abstraction)
 và thành phần thực thi (implementation) riêng biệt.
+
+- trong OOP: 2 phần: trừu tượng (abstraction) định nghĩa các chức năng và phần thực thi (implementation)
+các chức năng dc định nghĩa trong phần trừu tượng. 2 phần liên hệ vs nhau thông qua kế thừa. những thay
+đổi trong phần trừu tượng dẫn tới thay đổi trong phần thực thi
+- bridge pattern: dc sử dụng để tách phần trừu tượng (abstraction) và phần thực thi (implementation)
+do đó các phần có thể thay đổi các thực hiện mà không ảnh hưởng tới nhau
+- bridge pattern: khá giống vs adapter pattern: nhờ 1 lớp khác để thực hiện 1 xử lý nào đó
++ adapter pattern: còn gọi là wrapper pattern: dùng để biến đổi 1 class/interface sang một dạng khác
+có thể sử dụng dc, adapter pattern: giúp các lớp không tương thích hoạt động cùng nhau.
++ bridge pattern: tách phần trừu tượng (abstraction) và phần thực thi (implementation) riêng biệt
++ adapter pattern: làm cho hoạt động vs nhau khi mọi thứ đã được thiết kế ( đã tồn tại)
+  bridge pattern: dc thiết kế trước khi phát triển hệ thống để abstraction và implementation có thể
+  hoạt động một cách độc lập

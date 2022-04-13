@@ -1,4 +1,6 @@
-package StructuralPattern.BridgePattern;
+package StructuralPattern.BridgePattern.ex1;
+
+import StructuralPattern.BridgePattern.ex1.Question;
 
 public class QuestionManager {
     protected Question q;

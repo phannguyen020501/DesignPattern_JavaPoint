@@ -1,4 +1,4 @@
-package StructuralPattern.DecoratorPattern;
+package StructuralPattern.DecoratorPattern.ex1;
 
 public class FoodDecorator implements  Food{
     private Food newFood;

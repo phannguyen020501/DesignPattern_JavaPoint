@@ -3,3 +3,8 @@ a decorator pattern: "attach a flexible additional responsibilities to an object
 thời gian chạy
 
 decorator còn gọi là :wrapper
+- decorator pattern: cho phép người dùng thêm chức năng mới vào đối tượng hiện tại mà không muốn ảnh
+hưởng tới các đối tượng khác. kiểu thiết kế này có cấu trúc như một lớp bao bọc (wrap) cho lớp hiện có.
+mỗi khi cần thêm 1 chức năng mới, đối tượng thực hiện dc wrap trong 1 đối tượng mới (decorator class)
+- decorator: sử dụng composition thay vì  inheritance (kế thừa) để mở ộng đối tượng: còn gọi là
+wrapper hay smart proxy

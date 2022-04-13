@@ -1,4 +1,4 @@
-package StructuralPattern.DecoratorPattern;
+package StructuralPattern.DecoratorPattern.ex1;
 
 public class ChineeseFood extends FoodDecorator{
     public ChineeseFood(Food newFood) {

@@ -1,4 +1,4 @@
-package StructuralPattern.DecoratorPattern;
+package StructuralPattern.DecoratorPattern.ex1;
 
 import java.io.BufferedReader;
 import java.io.IOException;

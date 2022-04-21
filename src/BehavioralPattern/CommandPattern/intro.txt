@@ -1,0 +1,5 @@
+- command pattern: cho phép chuyển yêu cầu thành đối tượng độc lập, có thể dc sử dụng tham số
+hóa các dối tượng vs các yêu cầu khác nhau như log, queue(undo/redo), transtraction
+- command pattern: cho phép tấ cả những request gửi đến object dc lưu trữ trong chính object
+đó dưới dạng 1 object command. Khái niệm object command: như 1 class trung gian đc tạo ra
+để lưu trữ các câu lệnh và trạng thái của object

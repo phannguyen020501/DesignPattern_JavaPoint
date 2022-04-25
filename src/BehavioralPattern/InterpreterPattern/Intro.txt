@@ -1,0 +1,15 @@
+- Interpreter: xây dựng những đối tượng động bằng cách đọc mô tả về đối tượng sau đó
+xây dụng đối tượng đúng theo mô tả đó
+- Metadata ( mô tả) -> Interpreter pattern -> đối tượng tương ứng
+- Interpreter: hạn chế về phảm vi áp dụng -> định nghĩa ngữ pháp đơn giản, công cụ quy tắc
+đơn giản (rule)
+
+- context: phần thông tin biểu diễn cần xây dựng
+- expression: interface hoặc abstract class: định nghĩa phương thức interpreter chung cho tất
+cả các node trong cấu trúc cây phân tích ngữ phaps,
+- TerminalExpression (biếu thức đầu cuối): biếu thức có thể diễn giải trong một đối tượng duy nhất
+chứa các logic để đưa thonong tin context thành đối tượng
+- NonTerminalExpression (biểu thức không đầu cuối): biểu thức chứa 1 hoặc nhiều phương thức
+khác nhau, có thể là đầu cuối có thể không đầu cuối. khi 1 phương thức interpret() của lớp biểu thức không
+phải là đầu cuôi dc gọi -> đệ quy
+- client

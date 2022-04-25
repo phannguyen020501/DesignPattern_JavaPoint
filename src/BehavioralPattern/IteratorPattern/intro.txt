@@ -1,0 +1,10 @@
+- iterator: cung cấp 1 cách thức tuần tự tới các phần tử của 1 đối tượng tổng hợp, mà không cần
+tạo riêng các phương pháp truy cập cho đối tượng tổng hợp này
+
+- aggregate: 1 interface định nghĩa các phương thực để tạo iterator object
+- concreteAggregate: cài đặt các phương thức của aggregate, cài đặt interface tạo iterator
+để trả về 1 thể hiện của ConcreteIterator
+- Iterator: 1 interface hoặc 1 abstract class, định nghĩa các phương thức truy nhập và
+duyệt qua các phần tử
+- ConcreteIterator: cài đặt các phuwogn thức của Iterator, giữ index khi duyệt qua các phần tử
+- Client: đối tượng tạo Iterator pattern

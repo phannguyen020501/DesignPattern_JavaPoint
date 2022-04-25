@@ -1,0 +1,11 @@
+4 nguyên tắc cơ bản đọc và viết chữ số la mã
++ I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000
++ 1 chữ cái có thể lặp lại nhiều lần, tối đa 3 lần: XXX: 30, CC: 200
++ nếu 1 hay nhiều chữ đặt sau 1 chữ cái có giá trị lớn hơn: cộng trước đó
+    VD: VI = 5 + 1 = 6
+        LXX = 50 + 10 + 10 = 70
+        MCC = 1000 + 100 + 100 = 1200
++ nếu 1 chữ cái đặt trước 1 chữ có giá trị lớn hơn:  trừ
+    VD IV = 5 - 1 = 4
+       XC = 100 - 10 = 90
+       CM = 1000 - 100 = 900
